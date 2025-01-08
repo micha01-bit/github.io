@@ -1,0 +1,137 @@
+@media (max-width: 1024px) { 
+    .center {
+        padding-left: calc(50% - 393px); 
+        padding-right: calc(50% - 393px);
+    } 
+ 
+    .for { 
+        &__item {
+            height: 268px;
+        } 
+    }  
+     
+    .product-content {
+        column-gap: 29px; 
+        row-gap: 39px;
+       } 
+        
+    .footer__logo {
+        display: none;
+    }  
+     
+    .container {
+      padding-top: 20px;
+      }
+      
+    .filtering-form { 
+    position: unset;
+    display: flex;
+    flex-direction: column;
+    gap: 36px;
+    background-color: #fff;
+    box-shadow: 0 4px 67px -12px rgb(0 0 0 / 32%);
+    padding: 40px 48px;
+    } 
+
+    .filter-wrapper {
+    display: grid;
+    justify-content: space-around; 
+    padding-top: 10px; 
+    padding-left: 100px;
+    }  
+     
+    .catalog {
+      padding-bottom: 38px;
+    }
+     .bascet {
+    &__content {
+    grid-column: span 12;
+    } 
+
+    &__form {
+    border-radius: 20px;
+    background: rgb(247, 246, 246);
+    height: 556px;
+    grid-column: span 6; 
+     
+       &-title {
+        align-items: flex-start; 
+        padding-left: 40px;
+       }   
+     
+       &-subtotal {
+        align-content: flex-start; 
+        padding-left: 55px;
+
+      } 
+    } 
+     
+    &__button-right {
+      margin-left: 30px;
+     }
+
+    &__button2-left {
+      background-color: rgb(0,0,0);
+    } 
+     
+    &__button2-left__link {
+      color: #fff;
+    } 
+  }  
+  }
+ 
+@media (min-width: 768px) and (max-width: 833px) { 
+    .center {
+      padding-left: 24px; 
+      padding-right: 24px;
+    } 
+     
+    .product { 
+      width: 345px;
+    } 
+     
+    .catalog {
+      width: 345px; 
+      padding-bottom: 38px;
+    }  
+     
+    .container {
+      padding-top: 20px;
+      }
+     
+    .filtering-form { 
+      position: unset;
+      display: flex;
+      flex-direction: column;
+      gap: 36px;
+      background-color: #fff;
+      box-shadow: 0 4px 67px -12px rgb(0 0 0 / 32%);
+      padding: 40px 48px;
+    }
+
+    .filter-wrapper {
+      display: grid;
+      justify-content: space-around; 
+      padding-top: 10px; 
+      padding-left: 100px;
+    } 
+
+    .bascet__content {
+      grid-column: span 12;
+      } 
+  
+      .bascet__form {
+      border-radius: 20px;
+      background: rgb(247, 246, 246);
+      height: 556px;
+      grid-column: span 6;
+      } 
+       
+      .bascet__button2-left {
+        background-color: rgb(0,0,0);
+      } 
+       
+      .bascet__button2-left__link {
+        color: #fff;
+      }
+    }
